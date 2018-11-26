@@ -1,17 +1,25 @@
 {
-  "name": "proxy",
+  "name": "pley-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "proxy server for Pley",
   "main": "index.js",
-  "scripts": {
-    "start": "node ./server.js"
-  },
-  "keywords": [],
   "author": "Eric Callari <ericcallari1@gmail.com>",
   "license": "",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.2",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
   }
 }
