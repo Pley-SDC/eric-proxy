@@ -9,11 +9,13 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "artillery": "^1.6.0-25",
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.2",
     "morgan": "^1.9.0",
-    "body-parser": "^1.18.3",
-    "cors": "^2.8.5"
+    "newrelic": "^4.11.0"
   },
   "devDependencies": {
     "eslint": "^5.8.0",
